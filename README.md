@@ -9,7 +9,7 @@ AeroTraffic-AI is an intelligent system designed to mitigate urban traffic conge
 
 The system is conceptualized in two phases: Simulation and Deployment.
 
-1.  **Simulation (This Repository):** We use the realistic SUMO traffic simulator to create a digital twin of a complex intersection. A Rainbow DQN agent is trained in this environment. The agent's "vision"—the queue lengths and waiting times—simulates the data that would be provided by a real-world drone.
+1.  **Simulation (This Repository):** I used the realistic SUMO traffic simulator to create a digital twin of a complex intersection. Silk Board in Bengaluru faces heavy traffic everyday with 1.5 KM covering distance taking upto 1.5 hours. A Rainbow DQN agent is trained in this environment. The agent's "vision"—the queue lengths and waiting times—simulates the data that would be provided by a real-world drone. This aids in efficient dispersion of traffic
 2.  **Deployment (Future Goal):** The trained agent can be deployed in the real world. A drone positioned above an intersection  would capture live video. A computer vision model would process this feed to extract real-time traffic data, which is then fed to our trained agent to control the physical traffic light.
 
 ## Features
