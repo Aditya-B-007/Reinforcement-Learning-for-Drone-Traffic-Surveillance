@@ -19,7 +19,7 @@ def main():
     torch.manual_seed(config.seed)
     np.random.seed(config.seed)
     env = SumoTrafficEnv(
-    sumo_cfg_path="C:///Users//adity//Projects_of_Aditya//Research_Paper_Project//sumo_files//bengaluru_junction.sumocfg",
+    sumo_cfg_path="sumo_files/bengaluru_junction.sumocfg",
     tls_id="10043357419",
     incoming_lanes=[
             "638928399#0_0", "638928399#0_1", "638928399#0_2",
