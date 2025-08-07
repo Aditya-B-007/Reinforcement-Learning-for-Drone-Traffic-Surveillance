@@ -30,7 +30,7 @@ The system is conceptualized in two phases: Simulation and Deployment.
 **2. Clone the Repository:**
    ```bash
    git clone "https://github.com/Aditya-B-007/Reinforcement-Learning-for-Drone-Traffic-Surveillance/tree/main"
-   cd <your-repository-name>
+   cd Reinforcement-Learning-for-Drone-Traffic-Surveillance
    ```
 
 **3. Install Python Dependencies:**
